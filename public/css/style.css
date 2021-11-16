@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0 0 15px;
   color: #444;
   font-weight: 500;
@@ -147,7 +147,7 @@ a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: left;
   overflow-x: hidden;
@@ -198,14 +198,14 @@ ul {
 input,
 select,
 textarea,
-input[type="text"],
-input[type="date"],
-input[type="url"],
-input[type="email"],
-input[type="password"],
-input[type="tel"],
+input[type='text'],
+input[type='date'],
+input[type='url'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
 button,
-button[type="submit"] {
+button[type='submit'] {
   -moz-appearance: none;
   box-shadow: none !important;
 }
@@ -218,7 +218,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.gif") no-repeat center center;
+  background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
 ::-moz-selection {
@@ -280,7 +280,7 @@ div#preloader {
 .section-headline h2::after {
   border: 1px solid #333;
   bottom: -20px;
-  content: "";
+  content: '';
   left: 0;
   margin: 0 auto;
   position: absolute;
@@ -523,7 +523,7 @@ div#preloader {
 .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
   bottom: 0px;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   width: 100%;
@@ -654,7 +654,7 @@ div#preloader {
 .stick .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
   bottom: 0px;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   width: 100%;
@@ -803,7 +803,7 @@ div#preloader {
   background-color: #ffffff;
 }
 .services-area-3 {
-  background-image: url("../img/ifsHome/slider1.jpg");
+  background-image: url('../img/ifsHome/slider1.jpg');
   /* background: black; */
   opacity: 1;
   overflow: hidden;
@@ -843,7 +843,7 @@ div#preloader {
   font-weight: bold;
   font-size: calc(25px + 2vmin);
   justify-content: center;
-  text-decoration-color: "underline";
+  text-decoration-color: 'underline';
 }
 
 .services-topic {
@@ -861,7 +861,7 @@ div#preloader {
 }
 
 .our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg")
+  background: rgba(248, 248, 248, 0.8) url('../img/background/bg1.jpg')
     no-repeat fixed center top / cover;
 }
 
@@ -918,7 +918,7 @@ div#preloader {
 
 .faq-details a span.acc-icons::before {
   color: #333;
-  content: "";
+  content: '';
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -936,7 +936,7 @@ div#preloader {
 }
 
 .faq-details a.active span.acc-icons::before {
-  content: "";
+  content: '';
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -1020,7 +1020,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
   bottom: 0;
   color: #fff;
-  content: "";
+  content: '';
   font-size: 20px;
   font-weight: 700;
   height: 0%;
@@ -1039,7 +1039,7 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
+  background: rgba(248, 248, 248, 0.8) url('../img/background/bg1.jpg');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1125,8 +1125,8 @@ div#preloader {
 }
 
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
-  content: "";
+  background: rgba(0, 0, 0, 0) url('../img/team/team01.jpg') repeat scroll 0 0;
+  content: '';
   display: block;
   height: 100%;
   left: 0;
@@ -1244,7 +1244,7 @@ div#preloader {
 .team-img > a::after {
   background: rgba(0, 0, 0, 0.7);
   bottom: 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -1460,7 +1460,7 @@ div#preloader {
 
 .awesome-img > a::after {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -1568,7 +1568,7 @@ div#preloader {
 }
 
 .pri_table_list li.check.cross::after {
-  content: "\f00d";
+  content: '\f00d';
   font-family: fontawesome;
   font-size: 14px;
   position: absolute;
@@ -1578,7 +1578,7 @@ div#preloader {
 }
 
 .pri_table_list li.check::after {
-  content: "\f00c";
+  content: '\f00c';
   font-family: fontawesome;
   font-size: 14px;
   position: absolute;
@@ -1668,7 +1668,7 @@ div#preloader {
 ----------------------------------------*/
 
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat
+  background: rgba(0, 0, 0, 0) url('../img/background/slider1.jpg') no-repeat
     fixed center top / cover;
   height: auto;
   width: 100%;
@@ -1831,7 +1831,7 @@ div#preloader {
 }
 
 .blog-btn::after {
-  content: "\f178";
+  content: '\f178';
   font-family: fontawesome;
   position: absolute;
   right: -20px;
@@ -1976,7 +1976,7 @@ div#preloader {
   padding-bottom: 2px;
 } */
 
-.contact-form input[type="text"] {
+.contact-form input[type='text'] {
   /* background: rgba(126, 113, 113, 0) none repeat scroll 0 0; */
   border: 1px solid #ccc;
   border-radius: 0;
@@ -2000,7 +2000,7 @@ div#preloader {
   text-align: justify;
 }
 
-.contact-form button[type="submit"] {
+.contact-form button[type='submit'] {
   /* border: 1px solid #3ec1d5; */
   background: #3ec1d5;
   color: #fff;
@@ -2012,10 +2012,10 @@ div#preloader {
   transition: all 0.3s ease 0s;
   border-radius: 40px;
   text-transform: capitalize;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.contact-form button[type="submit"]:hover {
+.contact-form button[type='submit']:hover {
   color: #444;
   /* border: 1px solid #3ec1d5; */
   background: #3ec1d5;
@@ -2651,8 +2651,8 @@ span.email-notes {
   margin-bottom: 5px;
 }
 
-.comment-respond input[type="text"],
-.comment-respond input[type="email"] {
+.comment-respond input[type='text'],
+.comment-respond input[type='email'] {
   border: 1px solid #e5e5e5;
   border-radius: 0;
   height: 32px;
@@ -2670,7 +2670,7 @@ span.email-notes {
   width: 100%;
 }
 
-.comment-respond input[type="submit"] {
+.comment-respond input[type='submit'] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #3ec1d5;
   border-radius: 20px;
@@ -2697,7 +2697,7 @@ span.email-notes {
   color: #3ec1d5;
 }
 
-.comment-respond input[type="submit"]:hover {
+.comment-respond input[type='submit']:hover {
   border: 1px solid #3ec1d5;
   color: #fff;
   background: #3ec1d5;

@@ -13,28 +13,26 @@ const Slideshow = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item interval={11500}>
         <img
-          className='d-block w-100'
-          src='img/slider/interview.jpg'
-          alt='First slide'
+          className="d-block w-100"
+          src="img/slider/interview.jpg"
+          alt="First slide"
           style={{ height: "700px" }}
         />
         <Carousel.Caption>
-          <div className='slide-show'>
+          <div className="slide-show">
             <div
-              className='animated fadeInDown infinite'
+              className="animated fadeInDown infinite"
               style={{
                 animationDuration: "12000ms",
-              }}>
-              <h1 style={{ color: "#1ddcf5" }}>IT Recuritment</h1>
+              }}
+            >
+              <h1 style={{ color: "#1ddcf5" }}>Tallent Aquisition</h1>
               <p>
-                <div>
-                  Advanced modules, more functionality and competitive edge for
-                  your business.
-                </div>
+                <div></div>
               </p>
 
               <div style={{ float: "left", paddingTop: "70px" }}>
-                <a href='#ifs' className='ready-btn-slide'>
+                <a href="#ifs" className="ready-btn-slide">
                   More Info
                 </a>
               </div>
@@ -42,7 +40,7 @@ const Slideshow = () => {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={11500}>
+      {/* <Carousel.Item interval={11500}>
         <img
           className='d-block w-100'
           src='img/slider/light.png'
@@ -69,7 +67,7 @@ const Slideshow = () => {
             </div>
           </div>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 };

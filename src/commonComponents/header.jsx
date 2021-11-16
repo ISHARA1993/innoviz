@@ -104,33 +104,37 @@ const HeaderComponent = () => {
       keepMounted
       transformOrigin={{ vertical: "top", horizontal: "right" }}
       open={isMobileMenuOpen}
-      onClose={handleMobileMenuClose}>
+      onClose={handleMobileMenuClose}
+    >
       <MenuItem>
-        <Button className={classes.mobileHeaderStyle} href='/'>
+        <Button className={classes.mobileHeaderStyle} href="/">
           Home
         </Button>
       </MenuItem>
       <MenuItem>
         <Button
           className={classes.mobileHeaderStyle}
-          color='inherit'
-          href='/#about'>
+          color="inherit"
+          href="/#about"
+        >
           About
         </Button>
       </MenuItem>
       <MenuItem>
-        <div className='dropdown'>
+        <div className="dropdown">
           <Button
             className={classes.mobileHeaderStyle}
-            href='/#services'
-            endIcon={<ArrowDropDownIcon />}>
+            href="/#services"
+            endIcon={<ArrowDropDownIcon />}
+          >
             Services
           </Button>
-          <div className='dropdown-contentTwo'>
-            <a href='/applicationDev'>Application developments</a>
-            <a href='/ifsservices'> IFS Services</a>
-            {/* <a href='/wso2Support'>WSO2 Support</a> */}
-            <a href='/itRecurit'>IT Recruitment</a>
+          <div className="dropdown-contentTwo">
+            <a href="/applicationDev">Blockchain Developments</a>
+            <a href="/ifsservices">Blockchain Consultancy</a>
+            <a href="/wso2Support">dApps Front End</a>
+            <a href="/wso2Support">Wallets/Token Integration</a>
+            <a href="/itRecurit">IT Recruitment</a>
           </div>
         </div>
       </MenuItem>
@@ -148,46 +152,49 @@ const HeaderComponent = () => {
   return (
     <div className={classes.grow}>
       <AppBar
-        position='fixed'
+        position="fixed"
         style={{
           background: "#fff",
-        }}>
+        }}
+      >
         <div className={classes.sectionDesktop}>
-          <div className='container'>
+          <div className="container">
             <Toolbar>
-              <a href='/'>
+              <a href="/">
                 <img
-                  alt='companyLogo'
-                  src='img/companyLogo/InnoViz@2x.png'
-                  width='150'
-                  height='150'
+                  alt="companyLogo"
+                  src="img/companyLogo/InnoViz@2x.png"
+                  width="150"
+                  height="150"
                 />
               </a>
               <Typography className={classes.title} />
-              <Button className={classes.headerStyle} href='/'>
+              <Button className={classes.headerStyle} href="/">
                 Home
               </Button>
-              <Button className={classes.headerStyle} href='/'>
+              <Button className={classes.headerStyle} href="/">
                 About
               </Button>
-              <div className='dropdown'>
+              <div className="dropdown">
                 <Button
-                  href='/#services'
+                  href="/#services"
                   className={classes.headerStyle}
-                  endIcon={<ArrowDropDownIcon />}>
+                  endIcon={<ArrowDropDownIcon />}
+                >
                   Services
                 </Button>
-                <div className='dropdown-content'>
-                  <a href='/applicationDev'>Application developments</a>
-                  <a href='/ifsservices'> IFS Services</a>
-                  {/* <a href='/wso2Support'>WSO2 Support</a> */}
-                  <a href='/itRecurit'>IT Recruitment</a>
+                <div className="dropdown-content">
+                  <a href="/applicationDev">Blockchain Developments</a>
+                  <a href="/ifsservices">Blockchain Consultancy</a>
+                  <a href="/wso2Support">dApps Front End</a>
+                  <a href="/wso2Support">Wallets/Token Integration</a>
+                  <a href="/itRecurit">Tallents Aquisition</a>
                 </div>
               </div>
               {/* <Button className={classes.headerStyle} href='/careers'>
                 Careers
               </Button> */}
-              <a href='#contact' className='ready-btn-header'>
+              <a href="#contact" className="ready-btn-header">
                 Contact us
               </a>
             </Toolbar>
@@ -195,22 +202,23 @@ const HeaderComponent = () => {
         </div>
         <div className={classes.sectionMobile}>
           <IconButton
-            aria-label='menu'
+            aria-label="menu"
             aria-controls={mobileMenuId}
-            aria-haspopup='true'
+            aria-haspopup="true"
             onClick={handleMobileMenuOpen}
-            color='defult'>
+            color="defult"
+          >
             <Toolbar>
-              <a href='/'>
+              <a href="/">
                 <img
-                  src='img/companyLogo/InnoViz@2x.png'
-                  width='150'
-                  height='150'
+                  src="img/companyLogo/InnoViz@2x.png"
+                  width="150"
+                  height="150"
                 />
               </a>
               <Typography className={classes.title2} />
             </Toolbar>
-            <a href='#contact' className='ready-btn-header'>
+            <a href="#contact" className="ready-btn-header">
               Contact us
             </a>
             <MenuIcon />

@@ -13,36 +13,36 @@ import Slideshow from "./components/slides";
 
 function LandingPageComponent() {
   return (
-    <div className='about-area'>
-      <div className='each-slide-area padding-3'>
-        <div id='home'>
+    <div className="about-area">
+      <div className="each-slide-area padding-3">
+        <div id="home">
           {/* Start Slider Area */}
-          <div id='ensign-nivoslider' className='slides'>
+          <div id="ensign-nivoslider" className="slides">
             <Slideshow />
           </div>
           {/* End Slider Area */}
         </div>
         {/* Start About area */}
       </div>
-      <div id='about' className='about-area area-padding-1'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-12 col-sm-12 col-xs-12'>
-              <div className='section-headline text-center'>
+      <div id="about" className="about-area area-padding-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 col-sm-12 col-xs-12">
+              <div className="section-headline text-center">
                 <h2>About Us</h2>
               </div>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-md-12 col-sm-12 col-xs-12'>
-              <div className='well-middle'>
-                <div className='single-well'>
+          <div className="row">
+            <div className="col-md-12 col-sm-12 col-xs-12">
+              <div className="well-middle">
+                <div className="single-well">
                   <p>
-                    We are a Singapore based company with having a technical
-                    team operating from Sri Lanka. We provide IFS consultancy
-                    services with an in-depth understanding of your
-                    requirements, an efficient and responsive team of IFS
-                    experts, and a support desk.
+                    Innoviz is a Blockchain Development and Consultancy company
+                    based in Singapore. We help startups and enterprises
+                    leverage the decentralized network, built solutions on
+                    blockchain and introduce a new level of transparency,
+                    efficiency and automation into business processes.
                   </p>
                 </div>
               </div>
@@ -52,19 +52,19 @@ function LandingPageComponent() {
       </div>
       {/* End About area */}
       {/* Start Service area */}
-      <div id='services' className='services-area area-padding-7'>
-        <div className='row '>
-          <div className='col-md-12 col-sm-12 col-xs-12'>
-            <div className='section-headline services-head text-center'>
+      <div id="services" className="services-area area-padding-7">
+        <div className="row ">
+          <div className="col-md-12 col-sm-12 col-xs-12">
+            <div className="section-headline services-head text-center">
               <h2>Our Services</h2>
             </div>
           </div>
         </div>
-        <div className='colomn '>
-          <div className='container'>
-            <div className='row  area-padding-6'>
-              <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 '>
-                <a className='services-icon' href='/ifsservices'>
+        <div className="colomn ">
+          <div className="container">
+            <div className="row  area-padding-6">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
+                <a className="services-icon" href="/ifsservices">
                   {/* <iframe
                     title='ifsYouTube'
                     width='175%'
@@ -73,30 +73,21 @@ function LandingPageComponent() {
                     // src='https://www.youtube.com/embed/tgbNymZ7vqY'
                   ></iframe> */}
                   <img
-                    src='img/services/applicationDev.jpg'
-                    title='#applicationDev'
+                    src="img/services/applicationDev.jpg"
+                    title="#applicationDev"
                   />
                 </a>
               </div>
-              <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
-                <div className='about-move'>
-                  <div className='single-services'>
-                    <h2 className='services-topic'>IFS Services</h2>
-                    <p className='paragraph'>
-                      At InnoViz we want your business to focus on doing what it
-                      does best, so with our Services we make sure you don’t
-                      have to worry about managing your IFS Apps environments.
-                      You will benefit from having the full support and
-                      expertise from our consultants who take care of the
-                      technical management, and in cooperation with our partners
-                      we can offer you a fully hosted environment. Whether in a
-                      private or public cloud, we always look for a suitable
-                      solution that matches your specific needs. With Cloud
-                      managed Services we take care of any incidents or IFS
-                      change requests. We can empower you with our 24/7 support
-                      services from our highly skilled service desk, or via
-                      on-site consultancy. Get in touch with one of our experts
-                      to explore how we can elevate your business.
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div className="about-move">
+                  <div className="single-services">
+                    <h2 className="services-topic">
+                      Custom Blockchain Software Development
+                    </h2>
+                    <p className="paragraph">
+                      At InnoViz we expertise at delivering custom blockchain
+                      software solutions and help our clients and partners
+                      develop enterprise dApps.
                     </p>
                   </div>
                 </div>
@@ -104,13 +95,13 @@ function LandingPageComponent() {
             </div>
           </div>
 
-          <div className='services-area-3 '>
-            <div id='ifs' className='ifs-box-outSide area-padding-8'>
-              <div className='container'>
-                <div className='colomn '>
-                  <div className='row '>
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
+          <div className="services-area-3 ">
+            <div id="ifs" className="ifs-box-outSide area-padding-8">
+              <div className="container">
+                <div className="colomn ">
+                  <div className="row ">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
                         <h1>
                           <HighQualityIcon
                             style={{
@@ -119,14 +110,15 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          IFS Service Desk
+                          Blockchain Consulting
                         </h1>
-                        Offers a single gateway to all the ERP requirements
-                        making the process easier and simplified.
+                        We provides consultion on how the adoption of blockchain
+                        can benefit your enterprise solution and bring trust and
+                        transparency to the system.
                       </p>
                     </div>
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
                         <h1>
                           <StarsIcon
                             style={{
@@ -135,16 +127,16 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          IFS Managed Services
+                          dApps Development
                         </h1>
-                        Hosting and maintenance of IFS Applications on
-                        cloud/on-premise, complete installation & operational
-                        support on IFS Applications, Middleware and Oracle
-                        Database.
+                        From ideation to design and development, our blockchain
+                        developers build enterprise-grade decentralized
+                        applications to help clients accelerate time to market
+                        and maximize ROI.
                       </p>
                     </div>
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
                         <h1>
                           <HeadsetMicIcon
                             style={{
@@ -153,33 +145,17 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          IFS Consulting Services
+                          Smart Contracts Development
                         </h1>
-                        Offer an array of consulting services; Pre-study,
-                        project execution, end-to end implementation of IFS
-                        Applications, and upgrade to newer versions.
+                        Our smart contract development team can develop and
+                        deploy smart contracts for public and private blockchain
+                        networks. We have built smart contracts for
+                        crowdfunding, blockchain supply chain solutions and
+                        various dApps.
                       </p>
                     </div>
-
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
-                        <h1>
-                          <EmojiEventsIcon
-                            style={{
-                              fontSize: "35px",
-                              paddingRight: "5px",
-                              color: "#bbff00",
-                            }}
-                          />
-                          IFS Development & Integration
-                        </h1>
-                        We undertake modifications, customizations, upgrade to
-                        newer versions and new development of IFS Applications
-                        and development of Reports.
-                      </p>
-                    </div>
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
                         <h1>
                           <BusinessCenterIcon
                             style={{
@@ -188,15 +164,15 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          Value-Added Services
+                          Application Development
                         </h1>
                         Offers customized ERP solutions that complement existing
                         IFS modules and enhances their functionalities.
                       </p>
                     </div>
 
-                    <div className='col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area '>
-                      <p className='container'>
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
                         <h1>
                           <DeveloperModeIcon
                             style={{
@@ -205,16 +181,18 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          Field Service Management
+                          Tallent Aquisition
                         </h1>
-                        IFS Field Service Management offers the most complete
-                        service lifecycle management solution.
+                        We can help you to find the best candidate to fill your
+                        need. Let us take the burden of intial screening to
+                        technical interviews to filter out the best tallents for
+                        you.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div style={{ paddingTop: "20px", textAlign: "center" }}>
-                  <a href='/ifsservices' className='ready-btn-services '>
+                  <a href="/ifsservices" className="ready-btn-services ">
                     More Info
                   </a>
                 </div>
@@ -222,14 +200,15 @@ function LandingPageComponent() {
             </div>
           </div>
           <div
-            id='applicationDevelop'
-            className='services-area-2 area-padding-6'>
-            <div className='container'>
-              <div className='row'>
-                <div className='col-md-6 col-sm-6 col-xs-12 '>
-                  <div className='single-services'>
-                    <h2 className='services-topic'>Application developments</h2>
-                    <p className='paragraph'>
+            id="applicationDevelop"
+            className="services-area-2 area-padding-6"
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6 col-sm-6 col-xs-12 ">
+                  <div className="single-services">
+                    <h2 className="services-topic">Application developments</h2>
+                    <p className="paragraph">
                       Build, run, and operate cloud-native apps with us. Embrace
                       modern approaches like serverless, microservices, and
                       containers. Quickly code, build, deploy, and manage
@@ -239,13 +218,13 @@ function LandingPageComponent() {
                     </p>
                   </div>
                 </div>
-                <div className='col-md-6 col-sm-6 col-xs-12 '>
-                  <div className='about-move'>
-                    <a className='services-icon' href='#'>
+                <div className="col-md-6 col-sm-6 col-xs-12 ">
+                  <div className="about-move">
+                    <a className="services-icon" href="#">
                       <img
-                        alt='applicationDev'
-                        src='img/services/ifsServices.jpg'
-                        title='#ifsService'
+                        alt="applicationDev"
+                        src="img/services/ifsServices.jpg"
+                        title="#ifsService"
                       />
                     </a>
                   </div>
@@ -289,86 +268,56 @@ function LandingPageComponent() {
         </div>
       </div>
 
-      {/* Start Testimonials */}
-      <div className='testimonials-area'>
-        <div className='testi-inner area-padding'>
-          <div className='testi-overly' />
-          <div className='container'>
-            <div className='row'>
-              <div className='col-md-12 col-sm-12 col-xs-12'>
-                {/* Start testimonials Start */}
-                <div className='testimonial-content text-center'>
-                  <a className='quate' href='#'>
-                    <i className='fa fa-quote-right' />
+      <div className="testimonials-area ">
+        {/* <div className="testi-inner area-padding">
+          <div className="testi-overly" />
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 col-sm-12 col-xs-12">
+               
+                <div className="testimonial-content text-center">
+                  <a className="quate" href="#">
+                    <i className="fa fa-quote-right" />
                   </a>
-                  {/* start testimonial carousel */}
-                  <div className='testimonial-carousel'>
-                    <div className='single-testi'>
-                      <div className='testi-text'>
-                        <p>
-                          Cloud-native applications are a collection of small,
-                          independent, and loosely coupled services. ... If an
-                          app is "cloud-native," it's specifically designed to
-                          provide a consistent development and automated
-                          management experience across private, public, and
-                          hybrid clouds.
-                        </p>
-                        <h6>AWS</h6>
+                  
+                  <div className="testimonial-carousel">
+                    <div className="single-testi">
+                      <div className="testi-text">
+                        <p></p>
+                        <h6></h6>
                       </div>
                     </div>
-                    {/* End single item */}
-                    <div className='single-testi'>
-                      <div className='testi-text'>
-                        <p>
-                          The microservice architecture enables the rapid,
-                          frequent and reliable delivery of large, complex
-                          applications. It also enables an organization to
-                          evolve its technology stack.
-                        </p>
-                        {/*<h6>Jhon</h6>*/}
+                   
+                    <div className="single-testi">
+                      <div className="testi-text">
+                        <p></p>
+                        <h6>Jhon</h6>
                       </div>
                     </div>
-                    {/* End single item */}
-                    <div className='single-testi'>
-                      <div className='testi-text'>
-                        <p>
-                          CI/CD is a method to frequently deliver apps to
-                          customers by introducing automation into the stages of
-                          app development. The main concepts attributed to CI/CD
-                          are continuous integration, continuous delivery, and
-                          continuous deployment.
-                        </p>
-                        {/*<h6>Fleming</h6>*/}
-                      </div>
-                    </div>
-                    {/* End single item */}
                   </div>
                 </div>
-                {/* End testimonials end */}
               </div>
-              {/* End Right Feature */}
             </div>
           </div>
-        </div>
-        {/* End service Area */}
+        </div> */}
 
-        <div className='reviews-area hidden-xs'>
-          <div className='work-us '>
-            <div className='column'>
-              <div className='work-left-text'>
-                <a href='#'>
-                  <img src='img/about/3.jpg' alt='' />
+        <div className="reviews-area hidden-xs">
+          <div className="work-us ">
+            <div className="column">
+              <div className="work-left-text">
+                <a href="#">
+                  <img src="img/about/3.jpg" alt="" />
                 </a>
               </div>
 
-              <div className='work-right-text text-center '>
+              <div className="work-right-text text-center ">
                 <div>
                   <h2>working with us</h2>
                   <h5>
                     Agile Teams, Cutting Edge Technologies, State-of-the Art
                     Office
                   </h5>
-                  <a href='/careers' className='ready-btn'>
+                  <a href="/careers" className="ready-btn">
                     Join Us
                   </a>
                 </div>
@@ -380,11 +329,11 @@ function LandingPageComponent() {
       </div>
       {/* End Testimonials */}
       {/* Start Suscrive Area */}
-      <div className='suscribe-area'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-12 col-md-12 col-sm-12 col-xs=12'>
-              <div className='suscribe-text text-center'>
+      <div className="suscribe-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+              <div className="suscribe-text text-center">
                 <h3>Welcome to InnoViz</h3>
                 {/*<a class="sus-btn" href="#">Get A quate</a>*/}
               </div>
