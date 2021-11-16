@@ -129,7 +129,7 @@ const HeaderComponent = () => {
           <div className='dropdown-contentTwo'>
             <a href='/applicationDev'>Application developments</a>
             <a href='/ifsservices'> IFS Services</a>
-            <a href='/wso2Support'>WSO2 Support</a>
+            {/* <a href='/wso2Support'>WSO2 Support</a> */}
             <a href='/itRecurit'>IT Recruitment</a>
           </div>
         </div>
@@ -180,7 +180,7 @@ const HeaderComponent = () => {
                 <div className='dropdown-content'>
                   <a href='/applicationDev'>Application developments</a>
                   <a href='/ifsservices'> IFS Services</a>
-                  <a href='/wso2Support'>WSO2 Support</a>
+                  {/* <a href='/wso2Support'>WSO2 Support</a> */}
                   <a href='/itRecurit'>IT Recruitment</a>
                 </div>
               </div>

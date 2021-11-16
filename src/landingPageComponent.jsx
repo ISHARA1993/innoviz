@@ -253,7 +253,7 @@ function LandingPageComponent() {
               </div>
             </div>
           </div>
-          <div id='wso2' className='container area-padding-6'>
+          {/* <div id='wso2' className='container area-padding-6'>
             <div className='row '>
               <div className='col-md-6 col-sm-6 col-xs-12 '>
                 <a className='services-icon' href='#'>
@@ -285,7 +285,7 @@ function LandingPageComponent() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
