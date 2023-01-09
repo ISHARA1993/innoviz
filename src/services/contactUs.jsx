@@ -20,7 +20,7 @@ function ContactUs() {
                 <div className='single-icon'>
                   <i className='fa fa-envelope-o' />
                   <p>
-                    Email: admin@innoviz.io
+                    Email: hello@innoviza.xyz
                     <br />
                     <span />
                   </p>
@@ -73,9 +73,9 @@ function ContactUs() {
                 style={{ paddingBottom: "10px" }}
               />
             </div>
-            <div className='col-sm-12 col-md-5 col-lg-6'>
+            {/* <div className='col-sm-12 col-md-5 col-lg-6'>
               <EmailUs />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

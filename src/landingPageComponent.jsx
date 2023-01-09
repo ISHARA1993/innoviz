@@ -164,10 +164,25 @@ function LandingPageComponent() {
                               color: "#bbff00",
                             }}
                           />
-                          Application Development
+                          NFT Development
                         </h1>
-                        Offers customized ERP solutions that complement existing
-                        IFS modules and enhances their functionalities.
+                        We offer ready-to-deploy NFT marketplace solutions that can be customized and integrated into their web3 projects for reduced time-to-market.
+                      </p>
+                    </div>
+
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 ifs-box-area ">
+                      <p className="container">
+                        <h1>
+                          <BusinessCenterIcon
+                            style={{
+                              fontSize: "35px",
+                              paddingRight: "5px",
+                              color: "#bbff00",
+                            }}
+                          />
+                          Web3 API Intergration
+                        </h1>
+                        We can help integrate your existing systems to interact and display with web3 world. We are expertise in developing and deploying web3 midleware on mutiple chains.
                       </p>
                     </div>
 

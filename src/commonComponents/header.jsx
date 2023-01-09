@@ -164,8 +164,8 @@ const HeaderComponent = () => {
                 <img
                   alt="companyLogo"
                   src="img/companyLogo/InnoViz@2x.png"
-                  width="150"
-                  height="150"
+                  width="200"
+                  height="200"
                 />
               </a>
               <Typography className={classes.title} />

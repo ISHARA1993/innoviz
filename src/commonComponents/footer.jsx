@@ -58,7 +58,7 @@ function FooterComponent() {
                       <span>Tel:</span> +94-764-763-943
                     </p> */}
                     <p>
-                      <span>Email:</span> admin@innoviz.io
+                      <span>Email:</span> hello@innoviza.xyz
                     </p>
                   </div>
                 </div>

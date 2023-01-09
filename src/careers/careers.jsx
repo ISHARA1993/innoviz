@@ -129,7 +129,7 @@ const Careers = () => {
                           <li>Bachelor’s degree is preferred </li>
                         </ul>
 
-                        <h5>Send your CV to admin@innoviz.io</h5>
+                        <h5>Send your CV to hello@innoviza.xyz</h5>
                       </div>
                     </Typography>
                   </AccordionDetails>
