@@ -163,7 +163,7 @@ const HeaderComponent = () => {
               <a href="/">
                 <img
                   alt="companyLogo"
-                  src="img/companyLogo/InnoViz@2x.png"
+                  src="img/companyLogo/InnoViz@2x.jpg"
                   width="200"
                   height="200"
                 />
